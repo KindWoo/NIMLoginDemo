@@ -7,26 +7,49 @@
 //
 
 #import "MainTabVC.h"
+#import "LoginVC.h"
+#import <NIMSDK/NIMSDK.h>
+
+
 
 @interface MainTabVC ()
-
+@property (weak, nonatomic) IBOutlet UILabel *loginResult;
+@property (strong,nonatomic) LoginVC *loginVC;
 @end
 
 @implementation MainTabVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSString *result = [NSString stringWithFormat:@"Hello,%@",[[NIMSDK sharedSDK].loginManager currentAccount]];
+    _loginResult.text = result;
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)doLogout:(id)sender {
+    //IM-SDK登出
+    [[NIMSDK sharedSDK].loginManager logout:^(NSError * _Nullable error) {
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        [defaults setObject:nil forKey:@"account"];
+        [defaults setObject:nil forKey:@"token"];
+        [defaults synchronize];
+        
+        if(!error){
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"云信" message:@"您已登出" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                self.loginVC = [self.storyboard instantiateViewControllerWithIdentifier:@"loginVC"];
+                [UIApplication sharedApplication].keyWindow.rootViewController = self.loginVC;
+            }];
+            [alert addAction:action];
+            [self presentViewController:alert animated:YES completion:nil];
+        }
+        else{
+            NSLog(@"登出失败");
+        }
+    }];
+
 }
-*/
+
+
 
 @end

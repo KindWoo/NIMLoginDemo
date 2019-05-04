@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AB540E5227D5201005FAE08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB540E4227D5201005FAE08 /* AppDelegate.m */; };
+		3AB540EB227D5201005FAE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB540E9227D5201005FAE08 /* Main.storyboard */; };
+		3AB540ED227D5202005FAE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB540EC227D5202005FAE08 /* Assets.xcassets */; };
+		3AB540F0227D5202005FAE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB540EE227D5202005FAE08 /* LaunchScreen.storyboard */; };
+		3AB540F3227D5202005FAE08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB540F2227D5202005FAE08 /* main.m */; };
+		3AB540FD227D5202005FAE08 /* NIMLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB540FC227D5202005FAE08 /* NIMLoginDemoTests.m */; };
+		3AB54108227D5202005FAE08 /* NIMLoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB54107227D5202005FAE08 /* NIMLoginDemoUITests.m */; };
+		3AB54117227D52DB005FAE08 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB54116227D52DB005FAE08 /* LoginVC.m */; };
+		3AB5411A227D530F005FAE08 /* MainTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB54119227D530F005FAE08 /* MainTabVC.m */; };
+		D50CBE95F5BF638A8385D19E /* libPods-NIMLoginDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8273CB0B5492FA7D240354F1 /* libPods-NIMLoginDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB540F9227D5202005FAE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB540D8227D5201005FAE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB540DF227D5201005FAE08;
+			remoteInfo = NIMLoginDemo;
+		};
+		3AB54104227D5202005FAE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB540D8227D5201005FAE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB540DF227D5201005FAE08;
+			remoteInfo = NIMLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C2B6B06E7F6D18B3EAD21D9 /* Pods-NIMLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIMLoginDemo.release.xcconfig"; path = "Target Support Files/Pods-NIMLoginDemo/Pods-NIMLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3AB540E0227D5201005FAE08 /* NIMLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIMLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB540E3227D5201005FAE08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AB540E4227D5201005FAE08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AB540EA227D5201005FAE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AB540EC227D5202005FAE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AB540EF227D5202005FAE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AB540F1227D5202005FAE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB540F2227D5202005FAE08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AB540F8227D5202005FAE08 /* NIMLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIMLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB540FC227D5202005FAE08 /* NIMLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMLoginDemoTests.m; sourceTree = "<group>"; };
+		3AB540FE227D5202005FAE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB54103227D5202005FAE08 /* NIMLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIMLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB54107227D5202005FAE08 /* NIMLoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NIMLoginDemoUITests.m; sourceTree = "<group>"; };
+		3AB54109227D5202005FAE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB54115227D52DB005FAE08 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		3AB54116227D52DB005FAE08 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		3AB54118227D530F005FAE08 /* MainTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabVC.h; sourceTree = "<group>"; };
+		3AB54119227D530F005FAE08 /* MainTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabVC.m; sourceTree = "<group>"; };
+		8273CB0B5492FA7D240354F1 /* libPods-NIMLoginDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NIMLoginDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4E347EB50D8B3FB22967E1 /* Pods-NIMLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIMLoginDemo.debug.xcconfig"; path = "Target Support Files/Pods-NIMLoginDemo/Pods-NIMLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AB540DD227D5201005FAE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50CBE95F5BF638A8385D19E /* libPods-NIMLoginDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB540F5227D5202005FAE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB54100227D5202005FAE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AB540D7227D5201005FAE08 = {
+			isa = PBXGroup;
+			children = (
+				3AB540E2227D5201005FAE08 /* NIMLoginDemo */,
+				3AB540FB227D5202005FAE08 /* NIMLoginDemoTests */,
+				3AB54106227D5202005FAE08 /* NIMLoginDemoUITests */,
+				3AB540E1227D5201005FAE08 /* Products */,
+				4A5CB5EC20A907B3B5F7E1F1 /* Pods */,
+				DB15E37335811DD640A94691 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AB540E1227D5201005FAE08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AB540E0227D5201005FAE08 /* NIMLoginDemo.app */,
+				3AB540F8227D5202005FAE08 /* NIMLoginDemoTests.xctest */,
+				3AB54103227D5202005FAE08 /* NIMLoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AB540E2227D5201005FAE08 /* NIMLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3AB540E3227D5201005FAE08 /* AppDelegate.h */,
+				3AB540E4227D5201005FAE08 /* AppDelegate.m */,
+				3AB54118227D530F005FAE08 /* MainTabVC.h */,
+				3AB54119227D530F005FAE08 /* MainTabVC.m */,
+				3AB540E9227D5201005FAE08 /* Main.storyboard */,
+				3AB540EC227D5202005FAE08 /* Assets.xcassets */,
+				3AB540EE227D5202005FAE08 /* LaunchScreen.storyboard */,
+				3AB540F1227D5202005FAE08 /* Info.plist */,
+				3AB540F2227D5202005FAE08 /* main.m */,
+				3AB54115227D52DB005FAE08 /* LoginVC.h */,
+				3AB54116227D52DB005FAE08 /* LoginVC.m */,
+			);
+			path = NIMLoginDemo;
+			sourceTree = "<group>";
+		};
+		3AB540FB227D5202005FAE08 /* NIMLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB540FC227D5202005FAE08 /* NIMLoginDemoTests.m */,
+				3AB540FE227D5202005FAE08 /* Info.plist */,
+			);
+			path = NIMLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		3AB54106227D5202005FAE08 /* NIMLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB54107227D5202005FAE08 /* NIMLoginDemoUITests.m */,
+				3AB54109227D5202005FAE08 /* Info.plist */,
+			);
+			path = NIMLoginDemoUITests;
+			sourceTree = "<group>";
+		};
+		4A5CB5EC20A907B3B5F7E1F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D4E347EB50D8B3FB22967E1 /* Pods-NIMLoginDemo.debug.xcconfig */,
+				1C2B6B06E7F6D18B3EAD21D9 /* Pods-NIMLoginDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB15E37335811DD640A94691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8273CB0B5492FA7D240354F1 /* libPods-NIMLoginDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AB540DF227D5201005FAE08 /* NIMLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB5410C227D5202005FAE08 /* Build configuration list for PBXNativeTarget "NIMLoginDemo" */;
+			buildPhases = (
+				C4DB9D6235AA26D845C84BAC /* [CP] Check Pods Manifest.lock */,
+				3AB540DC227D5201005FAE08 /* Sources */,
+				3AB540DD227D5201005FAE08 /* Frameworks */,
+				3AB540DE227D5201005FAE08 /* Resources */,
+				972A63E71381F086304728A6 /* [CP] Embed Pods Frameworks */,
+				4A76EFF1B4FE99AB8FFB2FE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIMLoginDemo;
+			productName = NIMLoginDemo;
+			productReference = 3AB540E0227D5201005FAE08 /* NIMLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AB540F7227D5202005FAE08 /* NIMLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB5410F227D5202005FAE08 /* Build configuration list for PBXNativeTarget "NIMLoginDemoTests" */;
+			buildPhases = (
+				3AB540F4227D5202005FAE08 /* Sources */,
+				3AB540F5227D5202005FAE08 /* Frameworks */,
+				3AB540F6227D5202005FAE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB540FA227D5202005FAE08 /* PBXTargetDependency */,
+			);
+			name = NIMLoginDemoTests;
+			productName = NIMLoginDemoTests;
+			productReference = 3AB540F8227D5202005FAE08 /* NIMLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AB54102227D5202005FAE08 /* NIMLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB54112227D5202005FAE08 /* Build configuration list for PBXNativeTarget "NIMLoginDemoUITests" */;
+			buildPhases = (
+				3AB540FF227D5202005FAE08 /* Sources */,
+				3AB54100227D5202005FAE08 /* Frameworks */,
+				3AB54101227D5202005FAE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB54105227D5202005FAE08 /* PBXTargetDependency */,
+			);
+			name = NIMLoginDemoUITests;
+			productName = NIMLoginDemoUITests;
+			productReference = 3AB54103227D5202005FAE08 /* NIMLoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AB540D8227D5201005FAE08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = wukaida;
+				TargetAttributes = {
+					3AB540DF227D5201005FAE08 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3AB540F7227D5202005FAE08 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3AB540DF227D5201005FAE08;
+					};
+					3AB54102227D5202005FAE08 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 3AB540DF227D5201005FAE08;
+					};
+				};
+			};
+			buildConfigurationList = 3AB540DB227D5201005FAE08 /* Build configuration list for PBXProject "NIMLoginDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AB540D7227D5201005FAE08;
+			productRefGroup = 3AB540E1227D5201005FAE08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AB540DF227D5201005FAE08 /* NIMLoginDemo */,
+				3AB540F7227D5202005FAE08 /* NIMLoginDemoTests */,
+				3AB54102227D5202005FAE08 /* NIMLoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AB540DE227D5201005FAE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB540F0227D5202005FAE08 /* LaunchScreen.storyboard in Resources */,
+				3AB540ED227D5202005FAE08 /* Assets.xcassets in Resources */,
+				3AB540EB227D5201005FAE08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB540F6227D5202005FAE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB54101227D5202005FAE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A76EFF1B4FE99AB8FFB2FE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIMLoginDemo/Pods-NIMLoginDemo-resources.sh",
+				"${PODS_ROOT}/NIMKit/NIMKit/Resources/NIMKitEmoticon.bundle",
+				"${PODS_ROOT}/NIMKit/NIMKit/Resources/NIMKitResource.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NIMKitEmoticon.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NIMKitResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIMLoginDemo/Pods-NIMLoginDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		972A63E71381F086304728A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NIMLoginDemo/Pods-NIMLoginDemo-frameworks.sh",
+				"${PODS_ROOT}/NIMSDK_LITE/NIMSDK/NIMSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NIMLoginDemo/Pods-NIMLoginDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4DB9D6235AA26D845C84BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NIMLoginDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB540DC227D5201005FAE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB540F3227D5202005FAE08 /* main.m in Sources */,
+				3AB540E5227D5201005FAE08 /* AppDelegate.m in Sources */,
+				3AB54117227D52DB005FAE08 /* LoginVC.m in Sources */,
+				3AB5411A227D530F005FAE08 /* MainTabVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB540F4227D5202005FAE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB540FD227D5202005FAE08 /* NIMLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB540FF227D5202005FAE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB54108227D5202005FAE08 /* NIMLoginDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AB540FA227D5202005FAE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB540DF227D5201005FAE08 /* NIMLoginDemo */;
+			targetProxy = 3AB540F9227D5202005FAE08 /* PBXContainerItemProxy */;
+		};
+		3AB54105227D5202005FAE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB540DF227D5201005FAE08 /* NIMLoginDemo */;
+			targetProxy = 3AB54104227D5202005FAE08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AB540E9227D5201005FAE08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB540EA227D5201005FAE08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AB540EE227D5202005FAE08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB540EF227D5202005FAE08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AB5410A227D5202005FAE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AB5410B227D5202005FAE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AB5410D227D5202005FAE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4E347EB50D8B3FB22967E1 /* Pods-NIMLoginDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46P8HWRKQ8;
+				INFOPLIST_FILE = NIMLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wukaida.NIMLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AB5410E227D5202005FAE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2B6B06E7F6D18B3EAD21D9 /* Pods-NIMLoginDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46P8HWRKQ8;
+				INFOPLIST_FILE = NIMLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wukaida.NIMLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AB54110227D5202005FAE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46P8HWRKQ8;
+				INFOPLIST_FILE = NIMLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wukaida.NIMLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIMLoginDemo.app/NIMLoginDemo";
+			};
+			name = Debug;
+		};
+		3AB54111227D5202005FAE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46P8HWRKQ8;
+				INFOPLIST_FILE = NIMLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wukaida.NIMLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NIMLoginDemo.app/NIMLoginDemo";
+			};
+			name = Release;
+		};
+		3AB54113227D5202005FAE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46P8HWRKQ8;
+				INFOPLIST_FILE = NIMLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wukaida.NIMLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NIMLoginDemo;
+			};
+			name = Debug;
+		};
+		3AB54114227D5202005FAE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46P8HWRKQ8;
+				INFOPLIST_FILE = NIMLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wukaida.NIMLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NIMLoginDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AB540DB227D5201005FAE08 /* Build configuration list for PBXProject "NIMLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB5410A227D5202005FAE08 /* Debug */,
+				3AB5410B227D5202005FAE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB5410C227D5202005FAE08 /* Build configuration list for PBXNativeTarget "NIMLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB5410D227D5202005FAE08 /* Debug */,
+				3AB5410E227D5202005FAE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB5410F227D5202005FAE08 /* Build configuration list for PBXNativeTarget "NIMLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB54110227D5202005FAE08 /* Debug */,
+				3AB54111227D5202005FAE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB54112227D5202005FAE08 /* Build configuration list for PBXNativeTarget "NIMLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB54113227D5202005FAE08 /* Debug */,
+				3AB54114227D5202005FAE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AB540D8227D5201005FAE08 /* Project object */;
+}
