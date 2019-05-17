@@ -27,7 +27,10 @@
     // Do any additional setup after loading the view.
 }
 
-
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [_textAccount resignFirstResponder];
+    [_textPassword resignFirstResponder];
+}
 
 
 

@@ -68,6 +68,7 @@
         self.mainTabVC = [storyboard instantiateViewControllerWithIdentifier:@"mainTabVC"];
         self.window.rootViewController = self.mainTabVC;
         [self.window makeKeyAndVisible];
+        
     }
 }
 
