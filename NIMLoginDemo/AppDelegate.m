@@ -62,6 +62,7 @@
 
 
 -(void) onLogin:(NIMLoginStep)step{
+    NSLog(@"当前的状态 ：%ld",(long)step);
     if (step == NIMLoginStepLoginOK) {
         //进入mainTabVC
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
